@@ -23,7 +23,6 @@ declined, etc.
 
 ## Current Urls 
 
-urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('content.urls')),
-]
+
